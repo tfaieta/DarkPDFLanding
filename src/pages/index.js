@@ -47,7 +47,10 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>Free and Open-Source</h2>
                 </header>
-                <p>We are completely free and open source. This project is still in its infancy state and we will accept pull requests.</p>
+                <p>We are completely free and open source.<br></br>
+                This project is still in its infancy state and accepts pull requests.<br></br>
+                If you like DarkPDF make sure to give us a star on GitHub.
+                </p>
                 <ul className="actions">
                 <a className="button" href="https://github.com/tfaieta/DarkPDF">        
                   Repo
@@ -60,9 +63,8 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>FAQ</h2>
+              <p>Coming soon!</p>
             </header>
             <ul className="statistics">
               <li className="style1">
@@ -96,14 +98,13 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>Install DarkPDF</h2>
+              <p>Choose your OS below!</p>
             </header>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                <li><Link to="/generic" className="button special">MacOSX</Link></li>
+                <li><Link to="/generic" className="button">Windows 10</Link></li>
               </ul>
             </footer>
           </section>
