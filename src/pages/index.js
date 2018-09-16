@@ -51,7 +51,7 @@ class Index extends React.Component {
                   <h2>Free and Open-Source</h2>
                 </header>
                 <p>We are completely free and open source. This project is still in its infancy state and accepts pull requests. 
-                If you like DarkPDF make sure to give us a star on GitHub.
+                If you like DarkPDF make sure to give us a star on GitHub. <a href="https://media.giphy.com/media/9oICz6VsaMHsrzEJyo/giphy.gif">See DarkPDF in action!</a>
                 </p>
                 <ul className="actions">
                 <a className="button" href="https://github.com/tfaieta/DarkPDF">        
