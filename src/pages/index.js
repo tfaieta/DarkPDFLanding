@@ -6,7 +6,11 @@ import Waypoint from 'react-waypoint'
 
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.svg'
+import ss1 from '../assets/images/ss1.svg'
+import ss2 from '../assets/images/ss2.svg'
+import ss3 from '../assets/images/ss3.svg'
+import ss4 from '../assets/images/ss4.svg'
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -41,9 +45,8 @@ class Index extends React.Component {
 
         <div id="main">
 
-          <section id="intro" className="main">
-            <div className="spotlight">
-              <div className="content">
+          <section id="intro" className="main special">
+            <span className="picture"><img style={{borderRadius: 5, paddingBottom: 15}} src={ss1} alt=""/></span>
                 <header className="major">
                   <h2>Free and Open-Source</h2>
                 </header>
@@ -55,9 +58,6 @@ class Index extends React.Component {
                   Repo
                 </a>
                 </ul>
-              </div>
-              <span className="picture"><img style={{borderRadius: 11}} src={pic01} alt=""/></span>
-            </div>
           </section>
 
           <section id="second" className="main special">
@@ -70,7 +70,10 @@ class Index extends React.Component {
           <section id="third" className="main special">
             <header className="major">
               <h2>Screenshots</h2>
-              <p>Coming soon!</p>
+              <span className="picture"><img style={{borderRadius: 5}} src={ss1} alt=""/></span>
+              <span className="picture"><img style={{borderRadius: 5}} src={ss2} alt=""/></span>
+              <span className="picture"><img style={{borderRadius: 5}} src={ss3} alt=""/></span>
+              <span className="picture"><img style={{borderRadius: 5}} src={ss4} alt=""/></span>
             </header>
           </section>
 
