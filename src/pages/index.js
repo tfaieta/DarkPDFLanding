@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/pic01.svg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -47,8 +47,7 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>Free and Open-Source</h2>
                 </header>
-                <p>We are completely free and open source.<br></br>
-                This project is still in its infancy state and accepts pull requests.<br></br>
+                <p>We are completely free and open source. This project is still in its infancy state and accepts pull requests. 
                 If you like DarkPDF make sure to give us a star on GitHub.
                 </p>
                 <ul className="actions">
@@ -57,7 +56,7 @@ class Index extends React.Component {
                 </a>
                 </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              <span className="picture"><img style={{borderRadius: 11}} src={pic01} alt=""/></span>
             </div>
           </section>
 
@@ -66,34 +65,13 @@ class Index extends React.Component {
               <h2>FAQ</h2>
               <p>Coming soon!</p>
             </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
+          </section>
+
+          <section id="third" className="main special">
+            <header className="major">
+              <h2>Screenshots</h2>
+              <p>Coming soon!</p>
+            </header>
           </section>
 
           <section id="cta" className="main special">
