@@ -116,11 +116,9 @@
 	}
 
 	.picture {
-		display: block;
 		margin: 0 0 (_size(element-margin) * 0.75) 0;
 
 		img {
-			display: block;
 			margin: auto;
 			max-width: 75%;
 		}
