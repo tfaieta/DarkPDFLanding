@@ -62,8 +62,25 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>FAQ</h2>
-              <p>Coming soon!</p>
+              <h2>Why?</h2>
+              <p>Every day having to read through countless PDFs while 
+              all of my other applications run in dark mode, so there was always 
+              so much contrast when I had to read PDFs because they often only 
+              come in one background color: really bright white.</p>
+              <h2>What does it do?</h2>
+              <p>DarkPDF takes in a PDF file and goes through a process that turns
+               that PDF into an SVG. Once an SVG, we can take in and modify the paths 
+               of the drawing mechanism of the DOM. This is how we produce changes in 
+               the actual SVG and when rerendered we get a 'dark mode' PDF.</p>
+              <h2>How's it built?</h2>
+              <p>I wrapped a create-react-app app inside an Electron.js app so I can write 
+              in JSX/React but still be writing an app for the desktop. I had to build upon a 
+              library called react-pdf in order to convert the files from PDF into SVG and then 
+              being able to have some access to the SVG DOM. I spent a lot of time making sure 
+              that the colors of the dark mode were of high contrast, I wanted to make sure that 
+              the UI/UX was easy, quick, and beautiful so I spent time designing the front-end.</p>
+              <h2>Challenges with DarkPDF</h2>
+              <p>DarkPDF has problems with rendering images and for some reason there are problems with rendering some PDF's. I'll be starting to manage the issues soon.</p>
             </header>
           </section>
 
