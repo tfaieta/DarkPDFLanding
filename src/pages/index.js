@@ -102,7 +102,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li><a href="https://s3.amazonaws.com/darkpdf-releases/releases/DarkPDF-1.0.0.dmg" className="button special">MacOSX</a></li>
-                <li><a to="/generic" className="button">Windows 10</a></li>
+                <li><a href="https://app.darkpdf.com" className="button special">Web App</a></li>
               </ul>
             </footer>
           </section>
