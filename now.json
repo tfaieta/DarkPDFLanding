@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "DarkPDFLanding",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "public" }
+    }
+  ],
+  "alias": "darkpdf.com"
+}
