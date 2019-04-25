@@ -1,5 +1,5 @@
 {
-  "name": "DarkPDF Landing",
+  "name": "darkpdf-landing",
   "description": "Landing Page for DarkPDF",
   "version": "1.0.0",
   "author": "Tony Faieta",
@@ -37,7 +37,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "now-build": "npm run build",
+    "now-build": "yarn run build",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
