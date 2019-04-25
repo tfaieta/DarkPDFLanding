@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-stellar",
-  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "name": "DarkPDF Landing",
+  "description": "Landing Page for DarkPDF",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Tony Faieta",
   "dependencies": {
     "gatsby": "^1.9.235",
     "gatsby-image": "^1.0.42",
